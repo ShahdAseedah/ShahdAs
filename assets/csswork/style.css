@@ -1029,29 +1029,7 @@ form.contact_form {
 
 
 
-/*-- Footer --*/
 
-.copyright {
-	margin: 50px 0;
-	text-align: center;
-}
-
-.copyright p {
-	color: #333;
-	font-size: 15px;
-	line-height: 25px;
-}
-
-.copyright p a {
-	color: #333;
-	font-family: 'Montserrat', sans-serif;
-}
-
-.copyright p a:hover {
-	color: #ff4c4a;
-}
-
-/*-- //Footer --*/
 
 
 
