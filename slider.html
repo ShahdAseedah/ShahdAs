@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Shahd Activites</title>
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	 
+	</head>
+
+	<body>
+		<div id="wrapper">
+
+			<!-- Header -->
+			<!-- Note: The "styleN" class below should match that of the banner element. -->
+				<header id="header" class="alt style2">
+					<a href="index.html" class="logo"><strong>Shahd</strong> <span>Portfolio</span></a>
+					<nav>
+						<a href="#menu">Menu</a>
+					</nav>
+				</header>
+
+			<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="underprogress.html">My work</a></li>
+						<li><a href="activites.html">My Activities</a></li>
+						<li><a href="underprogress.html">other stuff</a></li>
+					</ul>
+					<ul class="actions vertical">
+						<li><a href="#" class="button special fit">My resume</a></li>
+						<li><a href="#" class="button fit">Contact me</a></li>
+					</ul>
+				</nav>
+					
+			<!-- Banner -->
+			<!-- Note: The "styleN" class below should match that of the header element. -->
+				<header class="major">
+					<center>
+						<h3>Data4Chan.ge Workshop</h3>
+					</center>
+				</header>
+					
+					<div class="w3-content w3-display-container">
+						<img class="mySlides" src="images/d4c0.jpg" style="width:100%">
+						<img class="mySlides" src="images/d4c.jpg" style="width:100%">
+						<img class="mySlides" src="images/d4c1.jpg" style="width:100%">
+						<img class="mySlides" src="images/d4c2.jpg" style="width:100%">
+						<img class="mySlides" src="images/d4c3.jpg" style="width:100%">
+						<img class="mySlides" src="images/d4c4.jpg" style="width:100%">
+						<img class="mySlides" src="images/d4c5.jpg" style="width:100%">
+						<img class="mySlides" src="images/d4c6.jpg" style="width:100%">
+						<img class="mySlides" src="images/d4c7.jpg" style="width:100%">
+						<img class="mySlides" src="images/d4c8.jpg" style="width:100%">
+
+						<a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+						<a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+					</div>
+
+						<script>
+							var slideIndex = 1;
+							showDivs(slideIndex);
+
+							function plusDivs(n) {
+								showDivs(slideIndex += n);
+							}
+
+							function showDivs(n) 
+							{
+								var i;
+								var x = document.getElementsByClassName("mySlides");
+								if (n > x.length) {slideIndex = 1}    
+								if (n < 1) {slideIndex = x.length}
+								for (i = 0; i < x.length; i++) {
+								x[i].style.display = "none";  
+								}
+								x[slideIndex-1].style.display = "block";  
+							}
+						</script>
+
+	
+  
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="https://twitter.com/shahdd_as" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://shahdaseedah.github.io/" class="icon alt fa-globe"><span class="label">My website</span></a></li>
+							<li><a href="https://github.com/ShahdAseedah" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/shahd-aseedah" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; 2017</li><li>Designed By: <a href="#">Shahd</a></li>
+						</ul>
+					</div>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+  
+	</body>
+</html>
